@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "v3": "./bin/index.js"
+  },
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +20,17 @@
   "bugs": {
     "url": "https://github.com/Zhaoiii/customize-v3-cli/issues"
   },
-  "homepage": "https://github.com/Zhaoiii/customize-v3-cli#readme"
+  "homepage": "https://github.com/Zhaoiii/customize-v3-cli#readme",
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "download": "^8.0.0",
+    "fs-extra": "^10.0.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.0",
+    "log-symbols": "^4.1.0",
+    "ora": "^5.4.1",
+    "update-notifier": "^5.1.0"
+  },
+  "dependencies": {}
 }
